@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <project>
+      <id>12</id>
+      <name>objects</name>
+      <bugtracker></bugtracker>
+      <created>2026-09-21 15:03:42.126722+00:00</created>
+      <updated>2026-09-21 15:09:50.156609+00:00</updated>
+      <tasks>
+        <task>
+          <id>9</id>
+          <name>objects</name>
+          <size>1</size>
+          <mode>annotation</mode>
+          <overlap>0</overlap>
+          <bugtracker></bugtracker>
+          <created>2026-09-21 15:03:58.573203+00:00</created>
+          <updated>2026-09-21 15:09:50.151457+00:00</updated>
+          <subset>default</subset>
+          <start_frame>0</start_frame>
+          <stop_frame>0</stop_frame>
+          <frame_filter></frame_filter>
+          <segments>
+            <segment>
+              <id>8</id>
+              <start>0</start>
+              <stop>0</stop>
+              <url>http://localhost:8081/api/projects/12/dataset/export/api/jobs/8</url>
+            </segment>
+          </segments>
+          <owner>
+            <username>potatofairy</username>
+            <email>potatofairy01@gmail.com</email>
+          </owner>
+          <assignee></assignee>
+        </task>
+      </tasks>
+      <subsets>default</subsets>
+      <owner>
+        <username>potatofairy</username>
+        <email>potatofairy01@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>car_polygon</name>
+          <color>#33ddff</color>
+          <type>polygon</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </project>
+    <dumped>2026-09-21 15:10:16.630227+00:00</dumped>
+  </meta>
+  <image id="0" name="pexels-isa-khakimov-719700147-18319674.jpg" subset="default" task_id="9" width="3196" height="5681">
+    <polygon label="car_polygon" source="manual" occluded="0" points="620.15,3243.92;592.56,3270.50;552.70,3296.05;513.85,3363.51;460.70,3458.57;422.89,3518.87;409.60,3571.00;409.60,3658.90;407.55,3690.59;389.16,3822.44;379.96,3978.82;377.91,4229.24;390.18,4353.94;402.44,4390.74;423.91,4408.11;486.26,4414.24;530.21,4415.27;542.47,4404.02;555.76,4403.00;569.05,4411.18;581.31,4409.13;591.54,4410.16;606.87,4406.07;620.15,4411.18;633.44,4414.24;674.33,4414.24;672.28,4307.94;979.94,4311.01;994.25,4336.56;1035.13,4336.56;2498.80,4285.46;2501.87,4406.07;2833.03,4404.02;2847.34,4380.51;2855.52,4281.37;2849.39,3951.23;2849.39,3856.17;2820.77,3624.15;2807.48,3594.51;2814.63,3505.58;2749.22,3418.70;2708.33,3332.85;2706.29,3302.18;2688.91,3277.65;2643.94,3242.90;2640.88,3231.66;2656.21,3215.30;2714.47,3204.06;2813.61,3185.66;2852.45,3150.91;2861.65,3116.16;2835.08,3074.25;2776.82,3048.70;2678.69,3047.68;2633.72,3059.94;2617.37,3089.58;2625.54,3133.53;2626.57,3148.87;2612.26,3164.20;2594.88,3147.84;2460.98,2902.54;2358.77,2760.46;2318.91,2721.62;2280.07,2698.11;2240.21,2689.94;2135.95,2682.78;2128.80,2644.96;1966.28,2630.65;1594.23,2624.52;1159.83,2649.05;1144.50,2695.05;1016.74,2705.27;986.07,2724.69;978.92,2734.91;963.59,2734.91;915.55,2781.93;836.84,2883.12;682.50,3141.71;660.02,3178.51;645.71,3164.20;653.88,3120.25;651.84,3086.52;633.44,3067.10;568.03,3049.72;494.43,3063.01;449.46,3084.47;424.93,3116.16;437.20,3169.31;470.93,3196.91;582.34,3221.44;620.15,3228.59" z_order="0">
+    </polygon>
+  </image>
+</annotations>
