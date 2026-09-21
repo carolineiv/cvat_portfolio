@@ -1,0 +1,27 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.vscode/
+.idea/
+*.swp
+*.swo
+*.zip
+*.tar.gz
+# *.jpg
+# *.mp4
+*.log
+*.tmp
+*.bak

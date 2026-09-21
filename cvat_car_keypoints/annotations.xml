@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>7</id>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-21 13:18:55.797901+00:00</created>
+      <updated>2026-09-21 13:48:24.835851+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>7</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>http://localhost:8081/api/jobs/7/dataset/export/api/jobs/7</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>potatofairy</username>
+        <email>potatofairy01@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>car_points</name>
+          <color>#5839f3</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-09-21 13:48:36.882621+00:00</dumped>
+  </meta>
+  <image id="0" name="pexels-isa-khakimov-719700147-18319674.jpg" width="3196" height="5681">
+    <points label="car_points" source="manual" occluded="0" points="1194.45,3758.83;469.32,3745.81;529.05,3586.54;1081.13,3588.08;2007.87,3746.20;2734.07,3735.40;2669.68,3572.61;2136.59,3566.10" z_order="0">
+    </points>
+  </image>
+</annotations>
