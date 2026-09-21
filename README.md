@@ -1,3 +1,32 @@
+## Структура репозитория
+
+```
+cvat_portfolio/
+├── cvat_bbox_photo/             # Детекция объектов на фото (bounding boxes)
+│   └── instances_default.json   # COCO JSON
+├── cvat_keypoints/              # Ключевые точки на фото автомобиля
+│   └── annotations.xml          # CVAT for images 1.1 (XML)
+├── cvat_ocr/                    # OCR-разметка текста на фото
+│   └── instances_default.json   # COCO JSON
+├── cvat_polygon/                # Полигональная сегментация
+│   └── annotations.xml          # CVAT for images 1.1 (XML)
+├── cvat_video_tracking/         # Трекинг объектов на видео (Track Mode)
+│   └── annotations.xml          # CVAT for video 1.1 (XML)
+├── screenshots/                 # Скриншоты разметки и результата проверки
+│   ├── car_points.jpg
+│   ├── car_polygon.jpg
+│   ├── ocr_text.jpg
+│   ├── photo_bbox_car.jpg
+│   ├── photo_bbox_dog_cat.jpg
+│   ├── script_result.png
+│   └── video_track.jpg
+├── scripts/
+│   └── check_annotations.py     # Скрипт проверки качества разметки
+├── .gitignore
+└── README.md
+```
+
+
 # Разметка фото и видео в CVAT
 
 ## Что сделано
