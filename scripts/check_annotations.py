@@ -146,9 +146,7 @@ class Report:
         self.info.append(msg)
 
     def print(self):
-        print("\n" + "=" * 60)
         print("ОТЧЁТ О ПРОВЕРКЕ")
-        print("=" * 60)
 
         if self.info:
             print("\n[ИНФО]")
@@ -166,11 +164,8 @@ class Report:
                 print(f"  ✗ {m}")
         else:
             print("\n[ОШИБКИ] не найдены")
-
-        print("\n" + "=" * 60)
         print(f"Итого: ошибок — {len(self.errors)}, "
               f"предупреждений — {len(self.warnings)}")
-        print("=" * 60)
 
         return len(self.errors) == 0
 
@@ -281,8 +276,7 @@ def _check_polygon(rep: Report, ann_id: int, pi: int,
                    pts: List[Tuple[float, float]],
                    w: Optional[int], h: Optional[int]):
         # замкнутость
-    # В CVAT XML полигоны хранятся незамкнутыми — это норма.
-    # Замыкание подразумевается неявно. Предупреждаем только
+    # Замыкание подразумевается неявно
     # если контур замкнут, но при этом меньше 3 уникальных точек
     # (это уже признак ошибки).
     if is_closed(pts):
